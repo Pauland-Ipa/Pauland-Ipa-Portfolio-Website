@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ammar Syazwan, a Computer Science student specializing in Multimedia and UI/UX.">
+    <title>Ammar Syazwan Bin Mohd Sharin | Portfolio</title>
+    
+    <link rel="icon" href="Images/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="Back to top">My portfolio</a>
+            
+            <button class="menu-toggle" aria-label="Open navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    
+                    <li>
+                        <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <h1>Hi, I'm <span class="highlight">Ammar Syazwan Bin Mohd Sharin</span></h1>
+                <p>I am a <span class="typing-text"></span></p>
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-img reveal">
+                        <img src="Images/profile.jpeg" alt="Portrait of Ammar Syazwan">
+                    </div>
+                    <div class="about-text reveal">
+                        <p>I am a Computer Science student majoring in Multimedia Computing, offering a strong technical base supported by significant skills in UI/UX design and Figma.</p>
+                        <p>My passion for design extends to the graphic arts, where I create excellent visuals using applications like Procreate. I believe that technology should serve humanity.</p>
+                        
+                        <div class="skills">
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Procreate</span>
+                            <span class="skill-tag">Multimedia Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    
+                    <article class="project-card reveal">
+                        <div class="card-image">
+                            <img src="Images/mathquiz.jpeg" alt="Screenshot of Quick Math Game">
+                        </div>
+                        <div class="card-content">
+                            <h3>Quick Math Game</h3>
+                            <p>A web-based interactive game meant to test and enhance fast mental arithmetic skills. Features include timer and real-time score tracking.</p>
+                            
+                            <div style="margin: 15px 0;">
+                                <span class="skill-tag" style="font-size: 0.8rem;">HTML5</span>
+                                <span class="skill-tag" style="font-size: 0.8rem;">CSS3</span>
+                                <span class="skill-tag" style="font-size: 0.8rem;">JavaScript</span>
+                            </div>
+
+                            <a href="https://trashp4nda.github.io/SimpleMathGame_83204/" class="btn secondary-btn" target="_blank">Play now</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="card-image">
+                            <img src="Images/artprototype.jpeg" alt="Screenshot of KUTS App Prototype">
+                        </div>
+                        <div class="card-content">
+                            <h3>UI/UX Design Prototype (KUTS App)</h3>
+                            <p>A defined Figma prototype for a mobile transportation application that demonstrates UI and UX design abilities (KUTS). Creating user flows, wireframing, and developing a responsive interface with an emphasis on accessibility.</p>
+                            
+                            <div style="margin: 15px 0;">
+                                <span class="skill-tag" style="font-size: 0.8rem;">Figma</span>
+                                <span class="skill-tag" style="font-size: 0.8rem;">UI/UX</span>
+                                <span class="skill-tag" style="font-size: 0.8rem;">Prototyping</span>
+                            </div>
+
+                            <a href="https://www.figma.com/proto/0WH1Xe5VsJzgF9MxvWx5Sd/UIUX-Project_Integrated-Map?page-id=0%3A1&node-id=51-1575&starting-point-node-id=190%3A554&t=IEn0QRYOzaw0UkGc-1" class="btn secondary-btn" target="_blank">View Prototype</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="card-image">
+                            <img src="Images/database.jpeg" alt="Screenshot of Database System">
+                        </div>
+                        <div class="card-content">
+                            <h3>Car Rental Database System</h3>
+                            <p>A collaborative project describing the design and maintenance of a Car Rental Database System. Covers ERD, normalization, and backend logic with a focus on data integrity and CRUD operations.</p>
+                            
+                            <div style="margin: 15px 0;">
+                                <span class="skill-tag" style="font-size: 0.8rem;">SQL</span>
+                                <span class="skill-tag" style="font-size: 0.8rem;">ERD</span>
+                                <span class="skill-tag" style="font-size: 0.8rem;">System Design</span>
+                            </div>
+
+                            <a href="car_rental_database_system.pdf" class="btn secondary-btn" target="_blank">View Presentation</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container contact-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>Have a project in mind? Let's talk.</p>
+                
+                <form id="contact-form" class="reveal">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                        <span class="error-msg" id="name-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                        <span class="error-msg" id="email-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+                        <span class="error-msg" id="message-error"></span>
+                    </div>
+
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                    <p id="form-status"></p>
+                </form>
+
+                <div class="direct-contact">
+                    <p>Or email me directly at: <a href="mailto:4mmarsyaz1@gmail.com">4mmarsyaz1@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Ammar Syazwan Bin Mohd Sharin.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+        <button id="back-to-top" aria-label="Scroll back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
